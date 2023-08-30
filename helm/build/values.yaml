@@ -1,0 +1,15 @@
+app:
+  name: lsburke12-poi-gateway-app
+  namespace: lsburke12
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/lsburke12-gateway
+  org: rhdh-deploy
+  name: lsburke12-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: lsburke12/poi-gateway-app
+  tag: latest
